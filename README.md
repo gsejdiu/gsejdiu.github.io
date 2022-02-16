@@ -1,1 +1,0 @@
-# gsejdiu.github.io
