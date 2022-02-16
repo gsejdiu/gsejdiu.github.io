@@ -47,7 +47,7 @@
     const swEvent = currentScript.getAttribute('data-event') || 'shoppingweek';
     hostName = url.replace('/integration.js', '');
     hostName = hostName.split('?').shift();
-    url = url.replace('integration.js', `${swEvent}`);
+    url = url.replace('integration.js', '');
     return url;
   }
 
